@@ -4,15 +4,15 @@ public class StringExplorer {
 public static void main(String[] args) {
 	// To check difference between String literal and objects
 	
-	String s1="Arjun";
-	String s2="Arjun";
+	String s1="John";
+	String s2="John";
 	
 	if(s1==s2){
 		System.out.println("Both S1 and S2 are same stored at same location in pool");
 	}
    
-	 String s3=new String("Arjun");
-	 String s4=new String("Arjun");
+	 String s3=new String("John");
+	 String s4=new String("John");
 	 
 	 // compare s1 and S3
 	 if(s1==s3){
